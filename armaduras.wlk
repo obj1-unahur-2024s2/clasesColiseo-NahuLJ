@@ -1,13 +1,13 @@
 object casco{
 
-  method puntosDeArmadura() = 10
+  method puntosDeArmadura(unPortador) = 10
 
 }
 
-class Escudo{
-  const portador
+object escudo{
 
-  method puntosDeArmadura() = 5 + portador.destreza() * 0.1 
+
+  method puntosDeArmadura(unPortador) = 5 + unPortador.destreza() * 0.1 
 
 }
 
